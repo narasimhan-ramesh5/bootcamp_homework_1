@@ -1,0 +1,112 @@
+body {background-color:#E0E0E0;}
+
+.mainpage_header{
+  width:100%;
+  background-color:white;
+  display:inline-block;
+}
+
+.mainpage_header a{
+  padding:12px;
+  text-align:center;
+  color:black;
+  font-family:Arial, Helvetica, sans-serif;
+  /*float:right;*/
+  /*margin-right:5%;*/
+}
+
+.mainpage_header a:hover {
+  background-color:teal;
+  color: white;
+}
+
+#mainpage_header_nav{
+  float:right;
+  margin-top:10px;
+  margin-right:20%;
+}
+
+#mainpage_header_name{
+  width:15%;
+  background-color:teal;
+  padding:10px 5px 10px 5px;
+  margin-left:10%;
+  float:left;
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:25px;
+  color:white;
+}
+
+.main_content{
+  background-color:white;
+  padding:20px 10px 20px 10px;
+  width:960px;
+  height:400px;
+  margin-top: 3%;
+  margin-left: 10%;
+  object-fit:contain;
+}
+
+.main_content h2{
+  color:teal;
+  padding-left:50px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold; 
+}
+
+.main_content p{
+  color:black;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height:1.6;
+}
+
+img.profilepic{
+  float:left;
+  padding:1px 14px 14px 20px;
+  width:280px;
+  height:160px;
+}
+
+/* Footer section of all pages */
+footer.portfolio {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:gray;
+  color: white;
+  text-align: center;
+}
+
+/* Style classes for portfolio page 
+#projects{
+  background-color:white;
+  padding:5px 5px 5px 5px;
+  width:61%;
+  height:450px;
+  margin:auto;
+  /*object-fit:contain;*/
+}
+/*
+#projects h2 {
+  color:teal;
+  padding-left:50px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold; 
+}*/
+
+#projects text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: teal;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact_me_form{
+  padding-left:50px;
+  font-family:Arial, Helvetica, sans-serif;
+}
